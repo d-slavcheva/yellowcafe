@@ -1,0 +1,43 @@
+// large - desktop + tablet
+@media screen and (max-width: $break-xlarge) {
+  section {
+    padding: 5% 10%;
+    gap: 2rem;
+  }
+
+  main {
+    padding: 5% 10%;
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: $break-large) {
+  section {
+        > figure {
+      
+      flex-basis: 40%;
+      flex-grow: 1;
+    }
+  }
+}
+
+// medium - tablet
+
+@media screen and (max-width: $break-medium) {
+}
+
+// small - mobile
+
+@media screen and (max-width: $break-small) {
+}
+
+// x-small - mobile
+
+@media screen and (max-width: $break-xsmall) {
+
+    section {
+        > figure {
+          flex-basis: 100%;
+         
+        }
+      }
+}

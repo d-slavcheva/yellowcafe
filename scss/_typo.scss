@@ -1,0 +1,17 @@
+h {
+  &1, &2, &3, &4, &5, &6 {
+    font-family: 'Courier New', Courier, monospace;
+  } 
+  
+  &2 {
+    font-size: 2rem;
+    color: $primary;
+    border-bottom: 3px dotted $primary;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+  }
+}
+
+address{
+  font-style: normal;
+}

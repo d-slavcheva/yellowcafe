@@ -1,0 +1,18 @@
+// Datatei in der alle anderen SCSS dateien iportiert werden
+//als erstes fonts und var integrieren
+@import "fonts";
+@import "var";
+
+
+// grundlegende styles
+@import "base";
+
+
+// alle anderen styles
+@import "container";
+@import "typo";
+
+
+// media queries immer zum schlussrespomsive 
+@import "responsive";
+
